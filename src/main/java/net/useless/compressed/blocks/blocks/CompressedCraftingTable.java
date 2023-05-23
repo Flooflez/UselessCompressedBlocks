@@ -5,6 +5,6 @@ import net.minecraft.block.Blocks;
 
 public class CompressedCraftingTable extends Block {
     public CompressedCraftingTable() {
-        super(Settings.copy(Blocks.CRAFTING_TABLE));
+        super(Settings.copy(Blocks.CRAFTING_TABLE).resistance(3f));
     }
 }
