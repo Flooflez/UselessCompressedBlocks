@@ -4,9 +4,9 @@
   "package": "net.useless.compressed.blocks.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CraftingScreenHandlerMixin"
   ],
   "client": [
-
   ],
   "injectors": {
     "defaultRequire": 1
