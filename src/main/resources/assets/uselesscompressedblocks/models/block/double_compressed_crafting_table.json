@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "uselesscompressedblocks:block/double_compressed_crafting_table_front",
+    "up": "uselesscompressedblocks:block/double_compressed_crafting_table_top",
+    "down": "uselesscompressedblocks:block/double_compressed_crafting_table_bottom",
+    "north": "uselesscompressedblocks:block/double_compressed_crafting_table_front",
+    "south": "uselesscompressedblocks:block/double_compressed_crafting_table_side",
+    "west": "uselesscompressedblocks:block/double_compressed_crafting_table_front",
+    "east": "uselesscompressedblocks:block/double_compressed_crafting_table_side"
+  }
+}

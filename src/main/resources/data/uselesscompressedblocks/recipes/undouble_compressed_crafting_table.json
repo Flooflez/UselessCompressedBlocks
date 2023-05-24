@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "uselesscompressedblocks:double_compressed_crafting_table"
+    }
+  ],
+  "result": {
+    "item": "uselesscompressedblocks:compressed_crafting_table",
+    "count": 9
+  }
+}

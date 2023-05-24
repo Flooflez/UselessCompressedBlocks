@@ -18,8 +18,8 @@ import org.jetbrains.annotations.Nullable;
 
 public class CompressedCraftingTable extends CraftingTableBlock {
 
-    public CompressedCraftingTable() {
-        super(Settings.copy(Blocks.CRAFTING_TABLE).resistance(3f));
+    public CompressedCraftingTable(float hardness, float resistance) {
+        super(Settings.copy(Blocks.CRAFTING_TABLE).strength(hardness, resistance));
     }
 
 }

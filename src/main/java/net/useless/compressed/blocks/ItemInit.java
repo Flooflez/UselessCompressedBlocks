@@ -14,9 +14,9 @@ import net.useless.compressed.blocks.blocks.CompressedCraftingTable;
 
 public class ItemInit {
 
-
-
-    public static final CompressedCraftingTable COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable();
+    public static final CompressedCraftingTable COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(2.5f,3f);
+    public static final CompressedCraftingTable DOUBLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(3f,6f);
+    public static final CompressedCraftingTable TRIPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(5f,12f);
     //compressed trap doors, stairs
 
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
@@ -25,6 +25,8 @@ public class ItemInit {
 
     public static void init() {
         RegisterBlockAndItem("compressed_crafting_table", COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("double_compressed_crafting_table", DOUBLE_COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("triple_compressed_crafting_table", TRIPLE_COMPRESSED_CRAFTING_TABLE);
 
 
     }

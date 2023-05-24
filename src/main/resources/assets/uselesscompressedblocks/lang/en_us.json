@@ -1,3 +1,6 @@
 {
-  "block.uselesscompressedblocks.compressed_crafting_table": "Compressed Crafting Table"
+  "itemGroup.uselesscompressedblocks.useless_compressed_blocks": "Useless Compressed Blocks",
+  "block.uselesscompressedblocks.compressed_crafting_table": "Compressed Crafting Table",
+  "block.uselesscompressedblocks.double_compressed_crafting_table": "Double Compressed Crafting Table",
+  "block.uselesscompressedblocks.triple_compressed_crafting_table": "Triple Compressed Crafting Table"
 }
