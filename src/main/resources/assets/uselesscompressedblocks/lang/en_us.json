@@ -2,5 +2,10 @@
   "itemGroup.uselesscompressedblocks.useless_compressed_blocks": "Useless Compressed Blocks",
   "block.uselesscompressedblocks.compressed_crafting_table": "Compressed Crafting Table",
   "block.uselesscompressedblocks.double_compressed_crafting_table": "Double Compressed Crafting Table",
-  "block.uselesscompressedblocks.triple_compressed_crafting_table": "Triple Compressed Crafting Table"
+  "block.uselesscompressedblocks.triple_compressed_crafting_table": "Triple Compressed Crafting Table",
+  "block.uselesscompressedblocks.quadruple_compressed_crafting_table": "Quadruple Compressed Crafting Table",
+  "block.uselesscompressedblocks.quintuple_compressed_crafting_table": "Quintuple Compressed Crafting Table",
+  "block.uselesscompressedblocks.sextuple_compressed_crafting_table": "Sextuple Compressed Crafting Table",
+  "block.uselesscompressedblocks.septuple_compressed_crafting_table": "Septuple Compressed Crafting Table",
+  "block.uselesscompressedblocks.octuple_compressed_crafting_table": "Octuple Compressed Crafting Table"
 }

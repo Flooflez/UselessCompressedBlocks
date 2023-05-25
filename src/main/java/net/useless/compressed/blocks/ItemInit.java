@@ -14,9 +14,14 @@ import net.useless.compressed.blocks.blocks.CompressedCraftingTable;
 
 public class ItemInit {
 
-    public static final CompressedCraftingTable COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(2.5f,3f);
-    public static final CompressedCraftingTable DOUBLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(3f,6f);
-    public static final CompressedCraftingTable TRIPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(5f,12f);
+    public static final CompressedCraftingTable COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(2f,3f);
+    public static final CompressedCraftingTable DOUBLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(4f,6f);
+    public static final CompressedCraftingTable TRIPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(6f,12f);
+    public static final CompressedCraftingTable QUADRUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(8f,35f);
+    public static final CompressedCraftingTable QUINTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(10f,50f);
+    public static final CompressedCraftingTable SEXTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(15f,100f);
+    public static final CompressedCraftingTable SEPTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(20f,500f);
+    public static final CompressedCraftingTable OCTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(25f,1200f);
     //compressed trap doors, stairs
 
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
@@ -27,6 +32,11 @@ public class ItemInit {
         RegisterBlockAndItem("compressed_crafting_table", COMPRESSED_CRAFTING_TABLE);
         RegisterBlockAndItem("double_compressed_crafting_table", DOUBLE_COMPRESSED_CRAFTING_TABLE);
         RegisterBlockAndItem("triple_compressed_crafting_table", TRIPLE_COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("quadruple_compressed_crafting_table", QUADRUPLE_COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("quintuple_compressed_crafting_table", QUINTUPLE_COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("sextuple_compressed_crafting_table", SEXTUPLE_COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("septuple_compressed_crafting_table", SEPTUPLE_COMPRESSED_CRAFTING_TABLE);
+        RegisterBlockAndItem("octuple_compressed_crafting_table", OCTUPLE_COMPRESSED_CRAFTING_TABLE);
 
 
     }
