@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "uselesscompressedblocks:compressed_crafting_table",
+    "uselesscompressedblocks:double_compressed_crafting_table",
+    "uselesscompressedblocks:triple_compressed_crafting_table",
+    "uselesscompressedblocks:quadruple_compressed_crafting_table",
+    "uselesscompressedblocks:quintuple_compressed_crafting_table",
+    "uselesscompressedblocks:sextuple_compressed_crafting_table",
+    "uselesscompressedblocks:septuple_compressed_crafting_table",
+    "uselesscompressedblocks:octuple_compressed_crafting_table"
+
+  ]
+}
