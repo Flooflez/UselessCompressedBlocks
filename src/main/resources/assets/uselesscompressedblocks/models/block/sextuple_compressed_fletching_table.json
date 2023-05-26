@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_bottom",
+    "east": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_side",
+    "north": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_front",
+    "particle": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_front",
+    "south": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_front",
+    "up": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_top",
+    "west": "uselesscompressedblocks:block/sextuple_compressed_fletching_table_side"
+  }
+}

@@ -8,7 +8,15 @@
     "uselesscompressedblocks:quintuple_compressed_crafting_table",
     "uselesscompressedblocks:sextuple_compressed_crafting_table",
     "uselesscompressedblocks:septuple_compressed_crafting_table",
-    "uselesscompressedblocks:octuple_compressed_crafting_table"
+    "uselesscompressedblocks:octuple_compressed_crafting_table",
 
+    "uselesscompressedblocks:compressed_fletching_table",
+    "uselesscompressedblocks:double_compressed_fletching_table",
+    "uselesscompressedblocks:triple_compressed_fletching_table",
+    "uselesscompressedblocks:quadruple_compressed_fletching_table",
+    "uselesscompressedblocks:quintuple_compressed_fletching_table",
+    "uselesscompressedblocks:sextuple_compressed_fletching_table",
+    "uselesscompressedblocks:septuple_compressed_fletching_table",
+    "uselesscompressedblocks:octuple_compressed_fletching_table"
   ]
 }

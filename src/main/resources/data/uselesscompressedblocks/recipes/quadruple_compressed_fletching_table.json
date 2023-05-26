@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uselesscompressedblocks:triple_compressed_fletching_table"
+    }
+  },
+  "result": {
+    "item": "uselesscompressedblocks:quadruple_compressed_fletching_table",
+    "count": 1
+  }
+
+}
