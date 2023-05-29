@@ -16,5 +16,14 @@
   "block.uselesscompressedblocks.quintuple_compressed_fletching_table": "Quintuple Compressed Fletching Table",
   "block.uselesscompressedblocks.sextuple_compressed_fletching_table": "Sextuple Compressed Fletching Table",
   "block.uselesscompressedblocks.septuple_compressed_fletching_table": "Septuple Compressed Fletching Table",
-  "block.uselesscompressedblocks.octuple_compressed_fletching_table": "Octuple Compressed Fletching Table"
+  "block.uselesscompressedblocks.octuple_compressed_fletching_table": "Octuple Compressed Fletching Table",
+
+  "block.uselesscompressedblocks.compressed_purpur_block": "Compressed Purpur Block",
+  "block.uselesscompressedblocks.double_compressed_purpur_block": "Double Compressed Purpur Block",
+  "block.uselesscompressedblocks.triple_compressed_purpur_block": "Triple Compressed Purpur Block",
+  "block.uselesscompressedblocks.quadruple_compressed_purpur_block": "Quadruple Compressed Purpur Block",
+  "block.uselesscompressedblocks.quintuple_compressed_purpur_block": "Quintuple Compressed Purpur Block",
+  "block.uselesscompressedblocks.sextuple_compressed_purpur_block": "Sextuple Compressed Purpur Block",
+  "block.uselesscompressedblocks.septuple_compressed_purpur_block": "Septuple Compressed Purpur Block",
+  "block.uselesscompressedblocks.octuple_compressed_purpur_block": "Octuple Compressed Purpur Block"
 }

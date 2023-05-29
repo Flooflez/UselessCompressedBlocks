@@ -22,8 +22,8 @@ public class ItemInit {
     public static final CompressedCraftingTable TRIPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(6f,12f);
     public static final CompressedCraftingTable QUADRUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(8f,35f);
     public static final CompressedCraftingTable QUINTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(10f,50f);
-    public static final CompressedCraftingTable SEXTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(15f,100f);
-    public static final CompressedCraftingTable SEPTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(20f,500f);
+    public static final CompressedCraftingTable SEXTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(15f,50f);
+    public static final CompressedCraftingTable SEPTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(20f,50f);
     public static final CompressedCraftingTable OCTUPLE_COMPRESSED_CRAFTING_TABLE = new CompressedCraftingTable(25f,1200f);
 
     public static final CompressedBlock COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(2f, 3f));
@@ -31,10 +31,19 @@ public class ItemInit {
     public static final CompressedBlock TRIPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(6f, 12f));
     public static final CompressedBlock QUADRUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(8f, 35f));
     public static final CompressedBlock QUINTUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(10f, 50f));
-    public static final CompressedBlock SEXTUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(15f, 100f));
-    public static final CompressedBlock SEPTUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(20f, 500f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(15f, 50f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(20f, 50f));
     public static final CompressedBlock OCTUPLE_COMPRESSED_FLETCHING_TABLE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE).strength(25f, 1200f));
     //compressed trap doors, stairs
+
+    public static final CompressedBlock COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(2f, 12f));
+    public static final CompressedBlock DOUBLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(4f, 30f));
+    public static final CompressedBlock TRIPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(6f, 50f));
+    public static final CompressedBlock QUADRUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(8f, 75f));
+    public static final CompressedBlock QUINTUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(10f, 75f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(15f, 100f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(20f, 250f));
+    public static final CompressedBlock OCTUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(25f, 1200f));
 
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
             .icon(() -> new ItemStack(COMPRESSED_CRAFTING_TABLE))
@@ -59,7 +68,14 @@ public class ItemInit {
         RegisterBlockAndItem("septuple_compressed_fletching_table", SEPTUPLE_COMPRESSED_FLETCHING_TABLE);
         RegisterBlockAndItem("octuple_compressed_fletching_table", OCTUPLE_COMPRESSED_FLETCHING_TABLE);
 
-
+        RegisterBlockAndItem("compressed_purpur_block", COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("double_compressed_purpur_block", DOUBLE_COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("triple_compressed_purpur_block", TRIPLE_COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("quadruple_compressed_purpur_block", QUADRUPLE_COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("quintuple_compressed_purpur_block", QUINTUPLE_COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("sextuple_compressed_purpur_block", SEXTUPLE_COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("septuple_compressed_purpur_block", SEPTUPLE_COMPRESSED_PURPUR_BLOCK);
+        RegisterBlockAndItem("octuple_compressed_purpur_block", OCTUPLE_COMPRESSED_PURPUR_BLOCK);
     }
 
     private static void RegisterBlockAndItem(String name, Block block) {
