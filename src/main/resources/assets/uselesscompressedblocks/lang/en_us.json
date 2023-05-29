@@ -25,5 +25,14 @@
   "block.uselesscompressedblocks.quintuple_compressed_purpur_block": "Quintuple Compressed Purpur Block",
   "block.uselesscompressedblocks.sextuple_compressed_purpur_block": "Sextuple Compressed Purpur Block",
   "block.uselesscompressedblocks.septuple_compressed_purpur_block": "Septuple Compressed Purpur Block",
-  "block.uselesscompressedblocks.octuple_compressed_purpur_block": "Octuple Compressed Purpur Block"
+  "block.uselesscompressedblocks.octuple_compressed_purpur_block": "Octuple Compressed Purpur Block",
+
+  "block.uselesscompressedblocks.compressed_end_stone_bricks": "Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.double_compressed_end_stone_bricks": "Double Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.triple_compressed_end_stone_bricks": "Triple Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.quadruple_compressed_end_stone_bricks": "Quadruple Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.quintuple_compressed_end_stone_bricks": "Quintuple Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.sextuple_compressed_end_stone_bricks": "Sextuple Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.septuple_compressed_end_stone_bricks": "Septuple Compressed End Stone Bricks",
+  "block.uselesscompressedblocks.octuple_compressed_end_stone_bricks": "Octuple Compressed End Stone Bricks"
 }

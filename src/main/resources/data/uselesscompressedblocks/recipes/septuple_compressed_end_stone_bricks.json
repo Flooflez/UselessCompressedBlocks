@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uselesscompressedblocks:sextuple_compressed_end_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "uselesscompressedblocks:septuple_compressed_end_stone_bricks",
+    "count": 1
+  }
+
+}

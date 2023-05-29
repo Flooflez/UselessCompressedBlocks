@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "uselesscompressedblocks:compressed_end_stone_bricks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:end_stone_bricks",
+    "count": 9
+  }
+}

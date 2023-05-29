@@ -45,6 +45,15 @@ public class ItemInit {
     public static final CompressedBlock SEPTUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(20f, 250f));
     public static final CompressedBlock OCTUPLE_COMPRESSED_PURPUR_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.PURPUR_BLOCK).strength(25f, 1200f));
 
+    public static final CompressedBlock COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(2f, 12f));
+    public static final CompressedBlock DOUBLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(4f, 30f));
+    public static final CompressedBlock TRIPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(6f, 50f));
+    public static final CompressedBlock QUADRUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(8f, 75f));
+    public static final CompressedBlock QUINTUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(10f, 75f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(15f, 100f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(20f, 250f));
+    public static final CompressedBlock OCTUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(25f, 1200f));
+
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
             .icon(() -> new ItemStack(COMPRESSED_CRAFTING_TABLE))
             .build();
@@ -76,6 +85,15 @@ public class ItemInit {
         RegisterBlockAndItem("sextuple_compressed_purpur_block", SEXTUPLE_COMPRESSED_PURPUR_BLOCK);
         RegisterBlockAndItem("septuple_compressed_purpur_block", SEPTUPLE_COMPRESSED_PURPUR_BLOCK);
         RegisterBlockAndItem("octuple_compressed_purpur_block", OCTUPLE_COMPRESSED_PURPUR_BLOCK);
+
+        RegisterBlockAndItem("compressed_end_stone_bricks", COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("double_compressed_end_stone_bricks", DOUBLE_COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("triple_compressed_end_stone_bricks", TRIPLE_COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("quadruple_compressed_end_stone_bricks", QUADRUPLE_COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("quintuple_compressed_end_stone_bricks", QUINTUPLE_COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("sextuple_compressed_end_stone_bricks", SEXTUPLE_COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("septuple_compressed_end_stone_bricks", SEPTUPLE_COMPRESSED_END_STONE_BRICKS);
+        RegisterBlockAndItem("octuple_compressed_end_stone_bricks", OCTUPLE_COMPRESSED_END_STONE_BRICKS);
     }
 
     private static void RegisterBlockAndItem(String name, Block block) {

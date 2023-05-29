@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "uselesscompressedblocks:quadruple_compressed_purpur_block"
+    }
+  ],
+  "result": {
+    "item": "uselesscompressedblocks:triple_compressed_purpur_block",
+    "count": 9
+  }
+}
