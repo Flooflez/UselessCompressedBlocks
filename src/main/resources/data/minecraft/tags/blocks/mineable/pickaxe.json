@@ -17,7 +17,16 @@
     "uselesscompressedblocks:quintuple_compressed_end_stone_bricks",
     "uselesscompressedblocks:sextuple_compressed_end_stone_bricks",
     "uselesscompressedblocks:septuple_compressed_end_stone_bricks",
-    "uselesscompressedblocks:octuple_compressed_end_stone_bricks"
+    "uselesscompressedblocks:octuple_compressed_end_stone_bricks",
+
+    "uselesscompressedblocks:compressed_red_nether_bricks",
+    "uselesscompressedblocks:double_compressed_red_nether_bricks",
+    "uselesscompressedblocks:triple_compressed_red_nether_bricks",
+    "uselesscompressedblocks:quadruple_compressed_red_nether_bricks",
+    "uselesscompressedblocks:quintuple_compressed_red_nether_bricks",
+    "uselesscompressedblocks:sextuple_compressed_red_nether_bricks",
+    "uselesscompressedblocks:septuple_compressed_red_nether_bricks",
+    "uselesscompressedblocks:octuple_compressed_red_nether_bricks"
 
   ]
 }

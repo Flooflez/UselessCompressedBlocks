@@ -43,5 +43,14 @@
   "block.uselesscompressedblocks.quintuple_compressed_honeycomb_block": "Quintuple Compressed Honeycomb Block",
   "block.uselesscompressedblocks.sextuple_compressed_honeycomb_block": "Sextuple Compressed Honeycomb Block",
   "block.uselesscompressedblocks.septuple_compressed_honeycomb_block": "Septuple Compressed Honeycomb Block",
-  "block.uselesscompressedblocks.octuple_compressed_honeycomb_block": "Octuple Compressed Honeycomb Block"
+  "block.uselesscompressedblocks.octuple_compressed_honeycomb_block": "Octuple Compressed Honeycomb Block",
+
+  "block.uselesscompressedblocks.compressed_red_nether_bricks": "Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.double_compressed_red_nether_bricks": "Double Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.triple_compressed_red_nether_bricks": "Triple Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.quadruple_compressed_red_nether_bricks": "Quadruple Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.quintuple_compressed_red_nether_bricks": "Quintuple Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.sextuple_compressed_red_nether_bricks": "Sextuple Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.septuple_compressed_red_nether_bricks": "Septuple Compressed Red Nether Bricks",
+  "block.uselesscompressedblocks.octuple_compressed_red_nether_bricks": "Octuple Compressed Red Nether Bricks"
 }

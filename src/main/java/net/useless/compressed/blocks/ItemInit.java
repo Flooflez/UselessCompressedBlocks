@@ -58,10 +58,19 @@ public class ItemInit {
     public static final CompressedBlock DOUBLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(1.5f));
     public static final CompressedBlock TRIPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(3f));
     public static final CompressedBlock QUADRUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(5f));
-    public static final CompressedBlock QUINTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(8f,20f));
-    public static final CompressedBlock SEXTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(12f,50f));
-    public static final CompressedBlock SEPTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(16f,75f));
-    public static final CompressedBlock OCTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(20f,100f));
+    public static final CompressedBlock QUINTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(6.5f,20f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(8f,50f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(10f,75f));
+    public static final CompressedBlock OCTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(12f,100f));
+
+    public static final CompressedBlock COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(2f, 12f));
+    public static final CompressedBlock DOUBLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(4f, 30f));
+    public static final CompressedBlock TRIPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(6f, 50f));
+    public static final CompressedBlock QUADRUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(8f, 75f));
+    public static final CompressedBlock QUINTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(10f, 75f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(15f, 100f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(20f, 250f));
+    public static final CompressedBlock OCTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(25f, 1200f));
 
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
             .icon(() -> new ItemStack(COMPRESSED_CRAFTING_TABLE))
@@ -112,6 +121,15 @@ public class ItemInit {
         RegisterBlockAndItem("sextuple_compressed_honeycomb_block", SEXTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
         RegisterBlockAndItem("septuple_compressed_honeycomb_block", SEPTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
         RegisterBlockAndItem("octuple_compressed_honeycomb_block", OCTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
+
+        RegisterBlockAndItem("compressed_red_nether_bricks", COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("double_compressed_red_nether_bricks", DOUBLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("triple_compressed_red_nether_bricks", TRIPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("quadruple_compressed_red_nether_bricks", QUADRUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("quintuple_compressed_red_nether_bricks", QUINTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("sextuple_compressed_red_nether_bricks", SEXTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("septuple_compressed_red_nether_bricks", SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("octuple_compressed_red_nether_bricks", OCTUPLE_COMPRESSED_RED_NETHER_BRICKS);
     }
 
     private static void RegisterBlockAndItem(String name, Block block) {
