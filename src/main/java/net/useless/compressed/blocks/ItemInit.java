@@ -63,7 +63,7 @@ public class ItemInit {
     public static final CompressedBlock SEPTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(10f,75f));
     public static final CompressedBlock OCTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(12f,100f));
 
-    public static final CompressedBlock COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(2f, 12f));
+    public static final CompressedBlock COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(3f, 12f));
     public static final CompressedBlock DOUBLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(4f, 30f));
     public static final CompressedBlock TRIPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(6f, 50f));
     public static final CompressedBlock QUADRUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(8f, 75f));
@@ -71,6 +71,15 @@ public class ItemInit {
     public static final CompressedBlock SEXTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(15f, 100f));
     public static final CompressedBlock SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(20f, 250f));
     public static final CompressedBlock OCTUPLE_COMPRESSED_RED_NETHER_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS).strength(25f, 1200f));
+
+    public static final CompressedBlock COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(3f, 12f));
+    public static final CompressedBlock DOUBLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(4f, 30f));
+    public static final CompressedBlock TRIPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(6f, 50f));
+    public static final CompressedBlock QUADRUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(8f, 75f));
+    public static final CompressedBlock QUINTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(10f, 75f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(15f, 100f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(20f, 250f));
+    public static final CompressedBlock OCTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(25f, 1200f));
 
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
             .icon(() -> new ItemStack(COMPRESSED_CRAFTING_TABLE))
@@ -130,6 +139,24 @@ public class ItemInit {
         RegisterBlockAndItem("sextuple_compressed_red_nether_bricks", SEXTUPLE_COMPRESSED_RED_NETHER_BRICKS);
         RegisterBlockAndItem("septuple_compressed_red_nether_bricks", SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS);
         RegisterBlockAndItem("octuple_compressed_red_nether_bricks", OCTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+
+        RegisterBlockAndItem("compressed_red_nether_bricks", COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("double_compressed_red_nether_bricks", DOUBLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("triple_compressed_red_nether_bricks", TRIPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("quadruple_compressed_red_nether_bricks", QUADRUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("quintuple_compressed_red_nether_bricks", QUINTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("sextuple_compressed_red_nether_bricks", SEXTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("septuple_compressed_red_nether_bricks", SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+        RegisterBlockAndItem("octuple_compressed_red_nether_bricks", OCTUPLE_COMPRESSED_RED_NETHER_BRICKS);
+
+        RegisterBlockAndItem("compressed_smooth_stone", COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("double_compressed_smooth_stone", DOUBLE_COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("triple_compressed_smooth_stone", TRIPLE_COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("quadruple_compressed_smooth_stone", QUADRUPLE_COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("quintuple_compressed_smooth_stone", QUINTUPLE_COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("sextuple_compressed_smooth_stone", SEXTUPLE_COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("septuple_compressed_smooth_stone", SEPTUPLE_COMPRESSED_SMOOTH_STONE);
+        RegisterBlockAndItem("octuple_compressed_smooth_stone", OCTUPLE_COMPRESSED_SMOOTH_STONE);
     }
 
     private static void RegisterBlockAndItem(String name, Block block) {

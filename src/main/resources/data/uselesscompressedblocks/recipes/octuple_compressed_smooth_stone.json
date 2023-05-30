@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uselesscompressedblocks:septuple_compressed_smooth_stone"
+    }
+  },
+  "result": {
+    "item": "uselesscompressedblocks:octuple_compressed_smooth_stone",
+    "count": 1
+  }
+
+}

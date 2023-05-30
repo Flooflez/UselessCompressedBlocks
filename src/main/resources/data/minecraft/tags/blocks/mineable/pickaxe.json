@@ -26,7 +26,16 @@
     "uselesscompressedblocks:quintuple_compressed_red_nether_bricks",
     "uselesscompressedblocks:sextuple_compressed_red_nether_bricks",
     "uselesscompressedblocks:septuple_compressed_red_nether_bricks",
-    "uselesscompressedblocks:octuple_compressed_red_nether_bricks"
+    "uselesscompressedblocks:octuple_compressed_red_nether_bricks",
+
+    "uselesscompressedblocks:compressed_smooth_stone",
+    "uselesscompressedblocks:double_compressed_smooth_stone",
+    "uselesscompressedblocks:triple_compressed_smooth_stone",
+    "uselesscompressedblocks:quadruple_compressed_smooth_stone",
+    "uselesscompressedblocks:quintuple_compressed_smooth_stone",
+    "uselesscompressedblocks:sextuple_compressed_smooth_stone",
+    "uselesscompressedblocks:septuple_compressed_smooth_stone",
+    "uselesscompressedblocks:octuple_compressed_smooth_stone"
 
   ]
 }

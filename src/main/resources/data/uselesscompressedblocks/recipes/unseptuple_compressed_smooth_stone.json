@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "uselesscompressedblocks:septuple_compressed_smooth_stone"
+    }
+  ],
+  "result": {
+    "item": "uselesscompressedblocks:sextuple_compressed_smooth_stone",
+    "count": 9
+  }
+}
