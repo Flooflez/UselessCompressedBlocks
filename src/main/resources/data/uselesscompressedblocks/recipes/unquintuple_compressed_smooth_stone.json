@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "uselesscompressedblocks:quintuple_compressed_red_nether_bricks"
+      "item": "uselesscompressedblocks:quintuple_compressed_smooth_stone"
     }
   ],
   "result": {
-    "item": "uselesscompressedblocks:quadruple_compressed_red_nether_bricks",
+    "item": "uselesscompressedblocks:quadruple_compressed_smooth_stone",
     "count": 9
   }
 }
