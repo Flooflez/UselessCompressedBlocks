@@ -34,5 +34,14 @@
   "block.uselesscompressedblocks.quintuple_compressed_end_stone_bricks": "Quintuple Compressed End Stone Bricks",
   "block.uselesscompressedblocks.sextuple_compressed_end_stone_bricks": "Sextuple Compressed End Stone Bricks",
   "block.uselesscompressedblocks.septuple_compressed_end_stone_bricks": "Septuple Compressed End Stone Bricks",
-  "block.uselesscompressedblocks.octuple_compressed_end_stone_bricks": "Octuple Compressed End Stone Bricks"
+  "block.uselesscompressedblocks.octuple_compressed_end_stone_bricks": "Octuple Compressed End Stone Bricks",
+
+  "block.uselesscompressedblocks.compressed_honeycomb_block": "Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.double_compressed_honeycomb_block": "Double Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.triple_compressed_honeycomb_block": "Triple Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.quadruple_compressed_honeycomb_block": "Quadruple Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.quintuple_compressed_honeycomb_block": "Quintuple Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.sextuple_compressed_honeycomb_block": "Sextuple Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.septuple_compressed_honeycomb_block": "Septuple Compressed Honeycomb Block",
+  "block.uselesscompressedblocks.octuple_compressed_honeycomb_block": "Octuple Compressed Honeycomb Block"
 }

@@ -54,6 +54,15 @@ public class ItemInit {
     public static final CompressedBlock SEPTUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(20f, 250f));
     public static final CompressedBlock OCTUPLE_COMPRESSED_END_STONE_BRICKS = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.END_STONE_BRICKS).strength(25f, 1200f));
 
+    public static final CompressedBlock COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(1f));
+    public static final CompressedBlock DOUBLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(1.5f));
+    public static final CompressedBlock TRIPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(3f));
+    public static final CompressedBlock QUADRUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(5f));
+    public static final CompressedBlock QUINTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(8f,20f));
+    public static final CompressedBlock SEXTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(12f,50f));
+    public static final CompressedBlock SEPTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(16f,75f));
+    public static final CompressedBlock OCTUPLE_COMPRESSED_HONEYCOMB_BLOCK = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.HONEYCOMB_BLOCK).strength(20f,100f));
+
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
             .icon(() -> new ItemStack(COMPRESSED_CRAFTING_TABLE))
             .build();
@@ -94,6 +103,15 @@ public class ItemInit {
         RegisterBlockAndItem("sextuple_compressed_end_stone_bricks", SEXTUPLE_COMPRESSED_END_STONE_BRICKS);
         RegisterBlockAndItem("septuple_compressed_end_stone_bricks", SEPTUPLE_COMPRESSED_END_STONE_BRICKS);
         RegisterBlockAndItem("octuple_compressed_end_stone_bricks", OCTUPLE_COMPRESSED_END_STONE_BRICKS);
+
+        RegisterBlockAndItem("compressed_honeycomb_block", COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("double_compressed_honeycomb_block", DOUBLE_COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("triple_compressed_honeycomb_block", TRIPLE_COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("quadruple_compressed_honeycomb_block", QUADRUPLE_COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("quintuple_compressed_honeycomb_block", QUINTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("sextuple_compressed_honeycomb_block", SEXTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("septuple_compressed_honeycomb_block", SEPTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
+        RegisterBlockAndItem("octuple_compressed_honeycomb_block", OCTUPLE_COMPRESSED_HONEYCOMB_BLOCK);
     }
 
     private static void RegisterBlockAndItem(String name, Block block) {

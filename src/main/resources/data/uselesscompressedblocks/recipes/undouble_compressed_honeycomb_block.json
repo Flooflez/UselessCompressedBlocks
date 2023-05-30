@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "uselesscompressedblocks:double_compressed_honeycomb_block"
+    }
+  ],
+  "result": {
+    "item": "uselesscompressedblocks:compressed_honeycomb_block",
+    "count": 9
+  }
+}
