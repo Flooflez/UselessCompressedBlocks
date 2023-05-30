@@ -140,15 +140,6 @@ public class ItemInit {
         RegisterBlockAndItem("septuple_compressed_red_nether_bricks", SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS);
         RegisterBlockAndItem("octuple_compressed_red_nether_bricks", OCTUPLE_COMPRESSED_RED_NETHER_BRICKS);
 
-        RegisterBlockAndItem("compressed_red_nether_bricks", COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("double_compressed_red_nether_bricks", DOUBLE_COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("triple_compressed_red_nether_bricks", TRIPLE_COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("quadruple_compressed_red_nether_bricks", QUADRUPLE_COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("quintuple_compressed_red_nether_bricks", QUINTUPLE_COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("sextuple_compressed_red_nether_bricks", SEXTUPLE_COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("septuple_compressed_red_nether_bricks", SEPTUPLE_COMPRESSED_RED_NETHER_BRICKS);
-        RegisterBlockAndItem("octuple_compressed_red_nether_bricks", OCTUPLE_COMPRESSED_RED_NETHER_BRICKS);
-
         RegisterBlockAndItem("compressed_smooth_stone", COMPRESSED_SMOOTH_STONE);
         RegisterBlockAndItem("double_compressed_smooth_stone", DOUBLE_COMPRESSED_SMOOTH_STONE);
         RegisterBlockAndItem("triple_compressed_smooth_stone", TRIPLE_COMPRESSED_SMOOTH_STONE);
