@@ -11,6 +11,7 @@ This mod adds compressed variants for the following blocks:
 5. Endstone Bricks
 6. Note Block
 7. Smooth Stone
+8. Red Nether Bricks
 
 Blocks can be compressed up to 8 times! <br>
 This means you can store **43,046,721** vanilla blocks in a single compressed block! <br>
