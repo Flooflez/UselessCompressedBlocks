@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uselesscompressedblocks:sextuple_compressed_note_block"
+    }
+  },
+  "result": {
+    "item": "uselesscompressedblocks:septuple_compressed_note_block",
+    "count": 1
+  }
+
+}

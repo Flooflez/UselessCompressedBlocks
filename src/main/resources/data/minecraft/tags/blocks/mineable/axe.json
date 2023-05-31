@@ -17,6 +17,15 @@
     "uselesscompressedblocks:quintuple_compressed_fletching_table",
     "uselesscompressedblocks:sextuple_compressed_fletching_table",
     "uselesscompressedblocks:septuple_compressed_fletching_table",
-    "uselesscompressedblocks:octuple_compressed_fletching_table"
+    "uselesscompressedblocks:octuple_compressed_fletching_table",
+
+    "uselesscompressedblocks:compressed_note_block",
+    "uselesscompressedblocks:double_compressed_note_block",
+    "uselesscompressedblocks:triple_compressed_note_block",
+    "uselesscompressedblocks:quadruple_compressed_note_block",
+    "uselesscompressedblocks:quintuple_compressed_note_block",
+    "uselesscompressedblocks:sextuple_compressed_note_block",
+    "uselesscompressedblocks:septuple_compressed_note_block",
+    "uselesscompressedblocks:octuple_compressed_note_block"
   ]
 }

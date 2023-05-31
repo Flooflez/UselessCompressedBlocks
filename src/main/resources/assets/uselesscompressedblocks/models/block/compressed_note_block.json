@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "uselesscompressedblocks:block/compressed_note_block"
+  }
+}

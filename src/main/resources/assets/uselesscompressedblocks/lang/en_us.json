@@ -61,5 +61,14 @@
   "block.uselesscompressedblocks.quintuple_compressed_smooth_stone": "Quintuple Compressed Smooth Stone",
   "block.uselesscompressedblocks.sextuple_compressed_smooth_stone": "Sextuple Compressed Smooth Stone",
   "block.uselesscompressedblocks.septuple_compressed_smooth_stone": "Septuple Compressed Smooth Stone",
-  "block.uselesscompressedblocks.octuple_compressed_smooth_stone": "Octuple Compressed Smooth Stone"
+  "block.uselesscompressedblocks.octuple_compressed_smooth_stone": "Octuple Compressed Smooth Stone",
+
+  "block.uselesscompressedblocks.compressed_note_block": "Compressed Note Block",
+  "block.uselesscompressedblocks.double_compressed_note_block": "Double Compressed Note Block",
+  "block.uselesscompressedblocks.triple_compressed_note_block": "Triple Compressed Note Block",
+  "block.uselesscompressedblocks.quadruple_compressed_note_block": "Quadruple Compressed Note Block",
+  "block.uselesscompressedblocks.quintuple_compressed_note_block": "Quintuple Compressed Note Block",
+  "block.uselesscompressedblocks.sextuple_compressed_note_block": "Sextuple Compressed Note Block",
+  "block.uselesscompressedblocks.septuple_compressed_note_block": "Septuple Compressed Note Block",
+  "block.uselesscompressedblocks.octuple_compressed_note_block": "Octuple Compressed Note Block"
 }
