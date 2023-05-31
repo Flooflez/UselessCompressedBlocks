@@ -1,5 +1,5 @@
 # Useless Compressed Blocks
-
+![NoTNTGriefingBanner](https://github.com/Flooflez/UselessCompressedBlocks/blob/1.19/assets/side_view.png?raw=true)
 This mod adds compressed variants for 8 vanilla blocks that have no reason to be stored in bulk.
 
 ## Features
