@@ -14,6 +14,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.useless.compressed.blocks.blocks.CompressedBlock;
 import net.useless.compressed.blocks.blocks.CompressedCraftingTable;
+import net.useless.compressed.blocks.blocks.CompressedNoteBlock;
 
 public class ItemInit {
 
@@ -80,6 +81,15 @@ public class ItemInit {
     public static final CompressedBlock SEXTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(15f, 100f));
     public static final CompressedBlock SEPTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(20f, 250f));
     public static final CompressedBlock OCTUPLE_COMPRESSED_SMOOTH_STONE = new CompressedBlock(AbstractBlock.Settings.copy(Blocks.SMOOTH_STONE).strength(25f, 1200f));
+
+    public static final CompressedNoteBlock COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(1f,1f, 1);
+    public static final CompressedNoteBlock DOUBLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(1.5f,5f, 2);
+    public static final CompressedNoteBlock TRIPLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(3f,10f, 3);
+    public static final CompressedNoteBlock QUADRUPLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(4f,25f, 4);
+    public static final CompressedNoteBlock QUINTUPLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(8f,50f, 5);
+    public static final CompressedNoteBlock SEXTUPLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(10f,100f, 6);
+    public static final CompressedNoteBlock SEPTUPLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(15f,250f, 7);
+    public static final CompressedNoteBlock OCTUPLE_COMPRESSED_NOTE_BLOCK = new CompressedNoteBlock(20f,1000f, 8);
 
     public static final ItemGroup GROUP = FabricItemGroup.builder(new Identifier(UselessCompressedBlocks.MODID, "useless_compressed_blocks"))
             .icon(() -> new ItemStack(COMPRESSED_CRAFTING_TABLE))
@@ -148,6 +158,15 @@ public class ItemInit {
         RegisterBlockAndItem("sextuple_compressed_smooth_stone", SEXTUPLE_COMPRESSED_SMOOTH_STONE);
         RegisterBlockAndItem("septuple_compressed_smooth_stone", SEPTUPLE_COMPRESSED_SMOOTH_STONE);
         RegisterBlockAndItem("octuple_compressed_smooth_stone", OCTUPLE_COMPRESSED_SMOOTH_STONE);
+
+        RegisterBlockAndItem("compressed_note_block", COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("double_compressed_note_block", DOUBLE_COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("triple_compressed_note_block", TRIPLE_COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("quadruple_compressed_note_block", QUADRUPLE_COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("quintuple_compressed_note_block", QUINTUPLE_COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("sextuple_compressed_note_block", SEXTUPLE_COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("septuple_compressed_note_block", SEPTUPLE_COMPRESSED_NOTE_BLOCK);
+        RegisterBlockAndItem("octuple_compressed_note_block", OCTUPLE_COMPRESSED_NOTE_BLOCK);
     }
 
     private static void RegisterBlockAndItem(String name, Block block) {
