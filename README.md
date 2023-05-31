@@ -1,5 +1,5 @@
 # Useless Compressed Blocks
-![NoTNTGriefingBanner](https://github.com/Flooflez/UselessCompressedBlocks/blob/1.19/assets/side_view.png?raw=true)
+![Block Showcase](https://github.com/Flooflez/UselessCompressedBlocks/blob/1.19/assets/side_view.png?raw=true)
 This mod adds compressed variants for 8 vanilla blocks that have no reason to be stored in bulk.
 
 ## Features
@@ -18,8 +18,9 @@ Compressed Crafting Tables work the same, but the Compressed Note Blocks have a 
 
 ## Crafting
 To craft a compressed item, simply place 9 vanilla blocks in a 3 x 3 pattern in a crafting table.
-
+![Compression](https://github.com/Flooflez/UselessCompressedBlocks/blob/1.19/assets/compress.gif) <br>
 To decompress a block, simply put it in the crafting grid and your blocks will be returned.
+![Decompression](https://github.com/Flooflez/UselessCompressedBlocks/blob/1.19/assets/decompress.gif) <br>
 
 ## Dependencies
 This mod requires Fabric API.
